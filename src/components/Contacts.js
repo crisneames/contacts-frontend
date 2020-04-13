@@ -8,7 +8,7 @@ if (process.env.NODE_ENV === 'development') {
   baseURL = 'http://localhost:3000'
 } else {
   //Would change to heroku backend
-  baseURL = 'http://localhost:3000'
+  baseURL = 'https://contacts-backend-api.herokuapp.com'
 }
 
 class Contacts extends React.Component{
