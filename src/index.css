@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  background: rgb(67 86 108);
+}
+
+/* card font */
+.box {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+.title {
+  color: white;
+  padding-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+/* birthday */
+.subtitle {
+  color: white;
+}
+
+
+/* NewForm and Update Form Modals */
+.model {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.modal-card-body {
+  background: rgb(117 173 223);
+}
+
+.label {
+  color: white;
+}
+
+.modal-card-title {
+  color: grey;
+}
+
+.card-footer-item {
+  cursor: pointer;
+}
+ /* Search bar */
+#search {
+  background: rgb(161 171 182);
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Cards */
+.person {
+  background: rgb(117 173 223);
+  width: 30%;
+  padding: 10px;
+  margin: 8px;
+  color: white;
+
+}
+
+/* Photos */
+.zoom {
+  padding: 0px;
+  transition: transform .2s; /* Animation */
+  width: 100px;
+  /* height: 100px; */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
